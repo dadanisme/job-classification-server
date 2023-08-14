@@ -50,7 +50,7 @@ def predict():
 
 
 @app.route('/laila', methods=['POST'])
-def predict():
+def laila_predict():
     answers = request.get_json()
 
     import pickle
